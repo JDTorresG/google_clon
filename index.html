@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="google-ico" link="images/google-icon.ico">
+    <link rel="shorcut icon" href="images/google-icon.ico">
     <title>Google</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,8 +12,8 @@
 <body>
     <header>
         <div class="menu">
-            <p class="option">Gmail</p>
-            <p class="option">Imágenes</p>
+            <a href="#" class="option">Gmail</a>
+            <a href="#" class="option">Imágenes</a>
             <button class="button-apps"><img src="images/google-apps-icon.png" height="20px"></button>
             <button class="button-login">Acceder</button>
         </div>
@@ -21,28 +21,32 @@
     <main>
         <div class="google-logo">
             <img src="images/google-logo.png" height="100px">
-            <img src="images/share-icon.png" height="25px">
+            <button class="share-button"><img src="images/share-icon.png" height="15px"></button>
         </div>
         <div class="search-container">
+            <img src="images/google-search-icon.png" height="13px">
             <input type="text" class="search-box" placeholder="Buscar...">
-            <button class="search-button">Buscar con Google</button>
-            <button class="search-button-lucky">Voy a tener suerte</button>
-
+            <img class="img" src="images/google-mic-icon.png" height="18px">
+            <img class="img" src="images/google-cam-icon.png" height="18px">
         </div>
+        <div class="search-buttons">
+            <button>Buscar con Google</button>
+            <button>Voy a tener suerte</button>
+        </div>
+
     </main>
     <footer>
         <p class="footer-top">México</p>
         <hr>
-        <div class="footer-bottom-left">
-            <p class="footer-left">Sobre Google</p>
-            <p class="footer-left">Publicidad</p>
-            <p class="footer-left">Negocios</p>
-            <p class="footer-left">Cómo funciona la Búsqueda</p>
-        </div>
-        <div class="footer-bottom-right">
-            <p class="footer-right">Privacidad</p>
-            <p class="footer-right">Condiciones</p>
-            <p class="footer-right">Configuración</p>
+        <div class="footer-bottom">
+            <a href="#" class="footer-left">Sobre Google</a>
+            <a href="#" class="footer-left">Publicidad</a>
+            <a href="#" class="footer-left">Negocios</a>
+            <a href="#" class="footer-left">Cómo funciona la Búsqueda</a>
+            <p class="footer-center"></p>
+            <a href="#" class="footer-right">Privacidad</a>
+            <a href="#" class="footer-right">Condiciones</a>
+            <a href="#" class="footer-right">Configuración</a>
         </div>
     </footer>
 </body>
